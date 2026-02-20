@@ -218,24 +218,24 @@
   display: inline-block;
 }
 .analysis-loading-dots::after {
-  content: '';
+  content: "";
   animation: loading-dots 1.2s steps(4, end) infinite;
 }
 
 @keyframes loading-dots {
   0%,
   20% {
-    content: '';
+    content: "";
   }
   40% {
-    content: '.';
+    content: ".";
   }
   60% {
-    content: '..';
+    content: "..";
   }
   80%,
   100% {
-    content: '...';
+    content: "...";
   }
 }
 
