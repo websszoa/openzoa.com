@@ -41,7 +41,7 @@ export default function Category({ active, onChange }: Props) {
         <Button
           key={label}
           variant={active === label ? "default" : "outline"}
-          className="font-anyvid rounded-full"
+          className="font-anyvid rounded-full text-[13px]"
           onClick={() => onChange(label)}
         >
           <Icon className="w-4 h-4" />

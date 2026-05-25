@@ -5,7 +5,7 @@ const navLinks = ["Details", "Resources", "About", "Submit"];
 
 export default function Header() {
   return (
-    <header className="h-20 px-6">
+    <header className="h-10 px-6">
       <Button
         size="icon"
         className="fixed left-6 top-6 z-50 rounded-full bg-black text-white hover:bg-black/80"
