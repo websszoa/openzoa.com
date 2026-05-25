@@ -1,50 +1,53 @@
-import type { Post } from '@/data/posts'
+import type { Post } from "@/data/posts";
 
 type Props = {
-  post: Post
-}
-
-const tagIcons: Record<string, string> = {
-  'Easter Egg': '✦',
-  Motion: '✦',
-}
+  post: Post;
+};
 
 export default function PostCard({ post }: Props) {
   return (
-    <div className="bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow cursor-pointer">
-      {/* Preview area */}
-      <div className="h-52 bg-gray-50 flex items-center justify-center text-gray-200 text-4xl border-b border-gray-100">
-        {post.image ? (
-          <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
-        ) : (
-          <span className="text-gray-300 text-6xl select-none">◯</span>
-        )}
-      </div>
+    <div className="bg-background rounded-2xl border border-gray-200 overflow-hidden hover:bg-white/50 transition-bg cursor-pointer">
+      {/* 콘텐츠 */}
+      <div className="flex flex-col gap-3 p-5">
+        {/* 아이콘 + 이름/URL + 점수 */}
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl overflow-hidden border border-gray-100 flex-shrink-0 bg-gray-50">
+              <img
+                src={`/images/${post.image}`}
+                alt={post.name}
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.currentTarget.style.display = "none";
+                }}
+              />
+            </div>
+            <div>
+              <p className="font-semibold text-gray-900 text-sm leading-tight">
+                {post.name}
+              </p>
+              <p className="text-xs text-gray-400">{post.url}</p>
+            </div>
+          </div>
+        </div>
 
-      {/* Content */}
-      <div className="p-5">
-        {post.badge && (
-          <span
-            className={`text-xs font-semibold tracking-widest uppercase mb-2 block ${
-              post.badge === 'UPDATED' ? 'text-orange-500' : 'text-blue-500'
-            }`}
-          >
-            {post.badge}
-          </span>
-        )}
-        <h2 className="text-base font-semibold text-gray-900 leading-snug mb-1">
-          {post.title}
-        </h2>
-        {post.description && (
-          <p className="text-sm text-gray-400 mb-3">{post.description}</p>
-        )}
-        <div className="mt-3">
-          <span className="inline-flex items-center gap-1.5 text-xs text-gray-500 border border-gray-200 rounded-full px-3 py-1">
-            <span>{tagIcons[post.tag] ?? '✦'}</span>
-            {post.tag}
-          </span>
+        {/* 설명 */}
+        <p className="text-[13px] font-nanum text-gray-600 leading-relaxed line-clamp-2">
+          {post.description}
+        </p>
+
+        {/* 태그 */}
+        <div className="flex flex-wrap gap-1.5">
+          {post.tags.map((tag) => (
+            <span
+              key={tag}
+              className="text-xs text-gray-500 border border-gray-200 rounded-full px-2.5 py-0.5"
+            >
+              {tag}
+            </span>
+          ))}
         </div>
       </div>
     </div>
-  )
+  );
 }
