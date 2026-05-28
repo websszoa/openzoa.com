@@ -1,24 +1,17 @@
-import { useState } from 'react'
-import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import Category from '@/components/Category'
-import PostGrid from '@/components/PostGrid'
-import { posts } from '@/data/posts'
+import { Routes, Route } from 'react-router-dom'
+import Home from '@/pages/Home'
+import About from '@/pages/About'
+import Ranking from '@/pages/Ranking'
+import Detail from '@/pages/Detail'
 
 function App() {
-  const [active, setActive] = useState('전체')
-
-  const filtered = active === '전체'
-    ? posts
-    : posts.filter((p) => p.tags.includes(active))
-
   return (
-    <>
-      <Header />
-      <Hero />
-      <Category active={active} onChange={setActive} />
-      <PostGrid posts={filtered} />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/ranking" element={<Ranking />} />
+      <Route path="/tool/:slug" element={<Detail />} />
+    </Routes>
   )
 }
 

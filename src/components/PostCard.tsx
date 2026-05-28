@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import type { Post } from "@/data/posts";
+import { toSlug } from "@/lib/utils";
 
 type Props = {
   post: Post;
@@ -6,7 +8,7 @@ type Props = {
 
 export default function PostCard({ post }: Props) {
   return (
-    <div className="bg-background rounded-2xl border border-gray-200 overflow-hidden hover:bg-white/50 transition-bg cursor-pointer">
+    <Link to={`/tool/${toSlug(post.name)}`} className="block bg-background rounded-2xl border border-gray-200 overflow-hidden hover:bg-white/50 transition-colors cursor-pointer">
       {/* 콘텐츠 */}
       <div className="flex flex-col gap-3 p-5">
         {/* 아이콘 + 이름/URL + 점수 */}
@@ -37,17 +39,19 @@ export default function PostCard({ post }: Props) {
         </p>
 
         {/* 태그 */}
-        <div className="flex flex-wrap gap-1.5">
-          {post.tags.map((tag) => (
-            <span
-              key={tag}
-              className="text-xs text-gray-500 border border-gray-200 rounded-full px-2.5 py-0.5"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
+        {post.tags?.length > 0 && (
+          <div className="flex flex-wrap gap-1.5">
+            {post.tags.map((tag) => (
+              <span
+                key={tag}
+                className="text-xs text-gray-500 border border-gray-200 rounded-full px-2.5 py-0.5"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
-    </div>
+    </Link>
   );
 }

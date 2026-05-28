@@ -16,13 +16,15 @@ import {
 
 export const CATEGORIES = [
   { label: "전체", icon: LayoutGrid },
+  { label: "Editing", icon: Layers },
+  { label: "Design to Code", icon: Layers },
+  { label: "Coding Tool", icon: Code2 },
+  { label: "Design", icon: Share2 },
   { label: "Prototyping", icon: Layers },
   { label: "Generated Code", icon: Sparkles },
-  { label: "Code Tool", icon: Code2 },
   { label: "UI Generator", icon: Wand2 },
   { label: "Figma", icon: PenTool },
   { label: "Site Builder", icon: Globe },
-  { label: "Design Systems", icon: Share2 },
   { label: "Images", icon: Image },
   { label: "Animation", icon: Clapperboard },
   { label: "Typography", icon: Type },

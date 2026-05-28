@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="text-center py-16 px-8">
+    <section className="text-center py-16 px-8 pt-30">
       <h1 className="max-w-2xl mx-auto text-5xl leading-[1.25] tracking-tight text-gray-900 mb-6 font-google-sans-flex">
         Discover modern ideas for designers and engineers.
       </h1>
