@@ -2,33 +2,19 @@ import { Button } from "@/components/ui/button";
 import {
   LayoutGrid,
   Sparkles,
-  Code2,
-  Layers,
   Wand2,
-  PenTool,
   Image,
-  Type,
-  Globe,
-  Box,
-  Clapperboard,
-  Share2,
+  PenTool,
+  Terminal,
 } from "lucide-react";
 
 export const CATEGORIES = [
   { label: "전체", icon: LayoutGrid },
-  { label: "Editing", icon: Layers },
-  { label: "Design to Code", icon: Layers },
-  { label: "Coding Tool", icon: Code2 },
-  { label: "Design", icon: Share2 },
-  { label: "Prototyping", icon: Layers },
-  { label: "Generated Code", icon: Sparkles },
-  { label: "UI Generator", icon: Wand2 },
-  { label: "Figma", icon: PenTool },
-  { label: "Site Builder", icon: Globe },
-  { label: "Images", icon: Image },
-  { label: "Animation", icon: Clapperboard },
-  { label: "Typography", icon: Type },
-  { label: "3D", icon: Box },
+  { label: "Design Tool", icon: PenTool },
+  { label: "Design AI", icon: Wand2 },
+  { label: "Code Editor", icon: Terminal },
+  { label: "Code AI", icon: Sparkles },
+  { label: "Image AI", icon: Image },
 ];
 
 type Props = {
