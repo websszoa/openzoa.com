@@ -12,4 +12,7 @@ export type Post = {
   description: string
 }
 
-export const posts: Post[] = data
+export const posts: Post[] = data.map((post, index) => ({
+  ...post,
+  id: index + 1,
+}))

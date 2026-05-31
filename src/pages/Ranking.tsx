@@ -76,7 +76,7 @@ export default function Ranking() {
 
       <main className="py-8">
         {/* 페이지 타이틀 */}
-        <div className="max-w-6xl mx-auto px-6 mb-16">
+        <div className="max-w-6xl mx-auto px-6 mb-16 mt-12">
           <p className="text-sm text-gray-500 tracking-widest uppercase mb-2">
             Top
           </p>

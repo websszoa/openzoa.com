@@ -15,6 +15,12 @@ export const CATEGORIES = [
   { label: "Code Editor", icon: Terminal },
   { label: "Code AI", icon: Sparkles },
   { label: "Image AI", icon: Image },
+  { label: "Presentation AI", icon: Image },
+  { label: "Voice AI", icon: Image },
+  { label: "Music AI", icon: Image },
+  { label: "Writing AI", icon: Image },
+  { label: "Research AI", icon: Image },
+  { label: "Avatar AI", icon: Image },
 ];
 
 type Props = {

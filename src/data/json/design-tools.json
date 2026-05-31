@@ -238,5 +238,205 @@
     "percent": 63,
     "tags": ["Design AI"],
     "description": "Claude Design은 코드베이스와 디자인 파일을 읽어 맞춤형 디자인 시스템을 만들고 대화형으로 시각 작업을 생성하는 Claude 기반 디자인 도구입니다."
+  },
+  {
+    "name": "Gamma",
+    "url": "gamma.app",
+    "image": "gamma.jpg",
+    "icon": "",
+    "score": 8.6,
+    "percent": 86,
+    "tags": ["Presentation AI"],
+    "description": "Gamma는 텍스트 프롬프트만으로 프레젠테이션, 문서, 웹페이지를 빠르게 생성하고 디자인까지 자동으로 구성해주는 AI 제작 도구입니다."
+  },
+  {
+    "name": "Presentations.AI",
+    "url": "presentations.ai",
+    "image": "presentations-ai.jpg",
+    "icon": "",
+    "score": 8.1,
+    "percent": 79,
+    "tags": ["Presentation AI"],
+    "description": "Presentations.AI는 입력한 주제나 문서를 바탕으로 전문적인 PowerPoint 및 Google Slides용 발표 자료를 자동 생성하는 AI 프레젠테이션 도구입니다."
+  },
+  {
+    "name": "Beautiful.ai",
+    "url": "beautiful.ai",
+    "image": "beautiful-ai.jpg",
+    "icon": "",
+    "score": 8.0,
+    "percent": 78,
+    "tags": ["Presentation AI"],
+    "description": "Beautiful.ai는 스마트 슬라이드 템플릿과 자동 레이아웃 기능을 통해 브랜드에 맞는 깔끔한 발표 자료를 빠르게 만들 수 있는 프레젠테이션 제작 도구입니다."
+  },
+  {
+    "name": "Pitch",
+    "url": "pitch.com",
+    "image": "pitch.jpg",
+    "icon": "",
+    "score": 8.2,
+    "percent": 81,
+    "tags": ["Presentation AI"],
+    "description": "Pitch는 팀이 함께 슬라이드를 만들고 공유하며 발표할 수 있는 협업형 프레젠테이션 플랫폼으로, AI를 활용해 덱 제작과 편집을 지원합니다."
+  },
+  {
+    "name": "ElevenLabs",
+    "url": "elevenlabs.io",
+    "image": "elevenlabs.jpg",
+    "icon": "",
+    "score": 9.0,
+    "percent": 91,
+    "tags": ["Audio AI", "Voice AI"],
+    "description": "ElevenLabs는 자연스러운 AI 음성 생성, 보이스 클로닝, 더빙, 텍스트 음성 변환 기능을 제공하는 대표적인 AI 음성 제작 플랫폼입니다."
+  },
+  {
+    "name": "Suno",
+    "url": "suno.com",
+    "image": "suno.jpg",
+    "icon": "",
+    "score": 8.8,
+    "percent": 89,
+    "tags": ["Music AI", "Audio AI"],
+    "description": "Suno는 텍스트 프롬프트를 기반으로 보컬, 가사, 반주가 포함된 음악을 자동 생성하는 AI 음악 제작 도구입니다."
+  },
+  {
+    "name": "Udio",
+    "url": "udio.com",
+    "image": "udio.jpg",
+    "icon": "",
+    "score": 8.5,
+    "percent": 84,
+    "tags": ["Music AI", "Audio AI"],
+    "description": "Udio는 사용자가 입력한 설명을 바탕으로 다양한 장르의 음악과 보컬 트랙을 생성할 수 있는 AI 음악 생성 플랫폼입니다."
+  },
+  {
+    "name": "LALAL.AI",
+    "url": "lalal.ai",
+    "image": "lalal-ai.jpg",
+    "icon": "",
+    "score": 8.0,
+    "percent": 76,
+    "tags": ["Audio AI", "Stem Separation"],
+    "description": "LALAL.AI는 노래에서 보컬, 드럼, 베이스, 악기 등을 분리해주는 AI 기반 오디오 스템 분리 도구입니다."
+  },
+  {
+    "name": "HeyGen",
+    "url": "heygen.com",
+    "image": "heygen.jpg",
+    "icon": "",
+    "score": 8.7,
+    "percent": 87,
+    "tags": ["Avatar AI", "Video AI"],
+    "description": "HeyGen은 AI 아바타, 음성, 번역 기능을 활용해 마케팅 영상, 교육 영상, 세일즈 영상을 빠르게 제작할 수 있는 AI 비디오 플랫폼입니다."
+  },
+  {
+    "name": "Synthesia",
+    "url": "synthesia.io",
+    "image": "synthesia.svg",
+    "icon": "",
+    "score": 8.8,
+    "percent": 88,
+    "tags": ["Avatar AI", "Video AI"],
+    "description": "Synthesia는 텍스트를 입력하면 AI 아바타가 말하는 형태의 교육, 온보딩, 기업용 영상을 자동 생성해주는 AI 비디오 제작 도구입니다."
+  },
+  {
+    "name": "D-ID",
+    "url": "d-id.com",
+    "image": "d-id.jpg",
+    "icon": "",
+    "score": 7.8,
+    "percent": 74,
+    "tags": ["Avatar AI", "Video AI"],
+    "description": "D-ID는 이미지나 아바타에 음성과 표정을 더해 말하는 영상으로 변환해주는 AI 디지털 휴먼 및 영상 생성 플랫폼입니다."
+  },
+  {
+    "name": "Captions",
+    "url": "captions.ai",
+    "image": "captions.jpg",
+    "icon": "",
+    "score": 8.3,
+    "percent": 82,
+    "tags": ["Video AI", "Editing AI"],
+    "description": "Captions는 자막 생성, 영상 편집, 더빙, 아이컨택 보정 등 크리에이터용 AI 영상 제작 기능을 제공하는 모바일 중심 편집 도구입니다."
+  },
+  {
+    "name": "Perplexity",
+    "url": "perplexity.ai",
+    "image": "perplexity.jpg",
+    "icon": "",
+    "score": 9.0,
+    "percent": 90,
+    "tags": ["Research AI", "Search AI"],
+    "description": "Perplexity는 웹 검색과 출처 기반 답변을 결합해 질문에 대한 요약, 비교, 리서치를 빠르게 제공하는 AI 검색 및 리서치 도구입니다."
+  },
+  {
+    "name": "Elicit",
+    "url": "elicit.com",
+    "image": "elicit.jpg",
+    "icon": "",
+    "score": 8.4,
+    "percent": 83,
+    "tags": ["Research AI", "Academic AI"],
+    "description": "Elicit은 논문 검색, 요약, 근거 추출, 연구 질문 정리를 도와주는 학술 리서치 특화 AI 도구입니다."
+  },
+  {
+    "name": "Consensus",
+    "url": "consensus.app",
+    "image": "consensus.jpg",
+    "icon": "",
+    "score": 8.2,
+    "percent": 80,
+    "tags": ["Research AI", "Academic AI"],
+    "description": "Consensus는 과학 논문을 기반으로 질문에 대한 근거 중심 답변과 연구 결과 요약을 제공하는 AI 학술 검색 도구입니다."
+  },
+  {
+    "name": "NotebookLM",
+    "url": "notebooklm.google",
+    "image": "notebooklm.jpg",
+    "icon": "",
+    "score": 8.7,
+    "percent": 86,
+    "tags": ["Research AI", "Note AI"],
+    "description": "NotebookLM은 사용자가 업로드한 문서와 자료를 기반으로 요약, 질문 답변, 인사이트 정리, 오디오 개요 생성을 지원하는 Google의 AI 노트 도구입니다."
+  },
+  {
+    "name": "Jasper",
+    "url": "jasper.ai",
+    "image": "jasper.jpg",
+    "icon": "",
+    "score": 8.1,
+    "percent": 79,
+    "tags": ["Writing AI", "Copywriting AI"],
+    "description": "Jasper는 마케팅 카피, 블로그 글, 광고 문구, 브랜드 톤에 맞춘 콘텐츠를 생성하는 기업용 AI 글쓰기 플랫폼입니다."
+  },
+  {
+    "name": "Copy.ai",
+    "url": "copy.ai",
+    "image": "copy-ai.jpg",
+    "icon": "",
+    "score": 7.9,
+    "percent": 76,
+    "tags": ["Writing AI", "Copywriting AI"],
+    "description": "Copy.ai는 세일즈, 마케팅, 이메일, 블로그 등 다양한 업무용 문구와 워크플로우를 자동화하는 AI 카피라이팅 도구입니다."
+  },
+  {
+    "name": "Writesonic",
+    "url": "writesonic.com",
+    "image": "writesonic.jpg",
+    "icon": "",
+    "score": 8.0,
+    "percent": 77,
+    "tags": ["Writing AI", "Copywriting AI"],
+    "description": "Writesonic은 블로그, 광고, SEO 콘텐츠, 챗봇용 문구를 빠르게 생성할 수 있는 AI 콘텐츠 작성 플랫폼입니다."
+  },
+  {
+    "name": "Anyword",
+    "url": "anyword.com",
+    "image": "anyword.jpg",
+    "icon": "",
+    "score": 7.8,
+    "percent": 75,
+    "tags": ["Writing AI", "Copywriting AI"],
+    "description": "Anyword는 광고 카피와 마케팅 문구의 성과를 예측하고 타깃에 맞는 메시지를 생성하는 AI 카피라이팅 최적화 도구입니다."
   }
 ]
